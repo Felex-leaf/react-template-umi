@@ -88,6 +88,7 @@ module.exports = {
     'operator-linebreak': 'off',
     'implicit-arrow-linebreak': 0,
     'eol-last': ['error', 'always'], // 尾空行
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }], // 尾空行一行
     'class-methods-use-this': 'off', // 类的实例方法可以不用 this
     'function-paren-newline': 'off',
     'no-restricted-syntax': 'off', // 禁止使用指定的语法
@@ -138,9 +139,6 @@ module.exports = {
         message: 'Please use Object.defineProperty instead.',
       },
     ],
-    // 'multiline-ternary': 'off', // prettier控制
-    // 'newline-per-chained-call': 'off', // prettier控制
-    // 'no-arrow-condition': 'off', // prettier控制
     'no-unsafe-optional-chaining': ['error', { disallowArithmeticOperators: true }], // 增加?.安全检查
   },
 };
