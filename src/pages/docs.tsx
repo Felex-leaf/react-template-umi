@@ -1,4 +1,4 @@
-const DocsPage = () => {
+const DocsPage = ({ d }) => {
   return (
     <div>
       <p>This is umi docs.</p>
