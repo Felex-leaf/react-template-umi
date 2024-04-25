@@ -19,12 +19,12 @@
     "umi": "^4.0.61"
   },
   "lint-staged": {
-    "src/**/*.{js,ts,jsx,tsx,json,css,less,scss,html,md}": [
-      "prettier --write -l",
+    "src/**/*.{less}": [
+      "stylelint",
+      "npx prettier --write -l",
       "git add"
     ],
-    "src/**/*.{js,jsx,ts,tsx}": "eslint",
-    "*.less": "stylelint"
+    "src/**/*.{js,jsx,ts,tsx}": "eslint"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

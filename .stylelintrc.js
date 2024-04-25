@@ -1,7 +1,9 @@
 module.exports = {
   extends: ['stylelint-config-standard', 'stylelint-config-recommended-less', 'stylelint-config-prettier'],
   rules: {
-    'function-url-quotes': 'always',
+    'no-irregular-whitespace': true,
+    'block-no-empty': true,
+    'function-parentheses-space-inside': 'never', // 禁止选择器括号后面的空格
     'font-family-no-missing-generic-family-keyword': null, // iconfont
     'selector-type-no-unknown': null,
     'comment-empty-line-before': null,
