@@ -19,7 +19,7 @@
     "umi": "^4.0.61"
   },
   "lint-staged": {
-    "src/**/*.{less}": [
+    "src/**/*.less": [
       "stylelint",
       "npx prettier --write -l",
       "git add"
