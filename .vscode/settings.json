@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": false,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.enable": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "prettier.enable": true,
+  "stylelint.enable": true,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss"
+  ],
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author": "wb_yefei02 <wb_yefei02@meituan.com>",
+  "author": "felex",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
