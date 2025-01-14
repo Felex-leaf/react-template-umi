@@ -16,7 +16,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "umi": "^4.0.61"
   },
   "lint-staged": {
     "src/**/*.less": [
@@ -47,6 +46,7 @@
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recommended-less": "^1.0.4",
     "stylelint-config-standard": "^34.0.0",
-    "typescript": "^4.1.2"
+    "typescript": "^4.1.2",
+    "@umijs/max": "^4.4.4"
   }
 }
