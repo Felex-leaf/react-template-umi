@@ -18,6 +18,7 @@ module.exports = {
     'at-rule-no-unknown': null,
     'no-descending-specificity': null,
     'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
+    'selector-class-pattern': null, // 允许使用 camelCase 类名
   },
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
 };
